@@ -7,7 +7,7 @@ Este projeto tem como objetivo registrar a pegada de carbono de empresas e organ
 Para obter uma cópia local do projeto, execute o seguinte comando:
 
 ```sh
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/AlexandreTI-AUT/Blockc-FormularioCarbono
 cd seu-repositorio
 ```
 
