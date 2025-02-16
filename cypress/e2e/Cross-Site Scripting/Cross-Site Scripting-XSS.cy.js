@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('SQL Injection', () => {
+describe('Cross-Site Scripting (XSS', () => {
 
     before(() => {
         cy.visit('carbom-footprint/');

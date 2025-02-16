@@ -54,5 +54,7 @@ Os testes automatizados verificam os seguintes cenários:
 2. **Validação do campo Empresa**: O sistema deve exibir uma mensagem de erro se o campo estiver vazio.
 3. **Validação do campo Tipo de Emissão**: O usuário deve selecionar um tipo de emissão para prosseguir.
 4. **Validação do campo Quantidade Estimada**: O sistema deve solicitar a inserção da quantidade estimada de emissão.
+5. **Teste de SQL Injection**: Verifica se o sistema bloqueia injeção de SQL ao tentar inserir um payload malicioso no campo "Empresa".
+6. **Teste de Cross-Site Scripting (XSS)**: Avalia se o formulário permite a execução de scripts maliciosos.
 
 
