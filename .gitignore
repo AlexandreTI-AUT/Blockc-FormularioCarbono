@@ -1,0 +1,44 @@
+# Diretório de dependências do Node.js
+node_modules/
+
+# Arquivos de ambiente (não versionar variáveis sensíveis)
+.env
+.env.local
+.env.*.local
+
+# Logs e diretórios de cache
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+cypress/screenshots/
+cypress/videos/
+
+# Cypress downloads (arquivos baixados durante os testes)
+cypress/downloads/
+
+# Arquivos de configuração local
+cypress.env.json
+
+# Diretório de builds e distribuições
+dist/
+build/
+out/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cypress cache
+.cypress-cache/
